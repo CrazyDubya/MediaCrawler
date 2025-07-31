@@ -28,7 +28,13 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
 
-import pandas as pd
+try:
+    import pandas as pd
+    PANDAS_AVAILABLE = True
+except ImportError:
+    PANDAS_AVAILABLE = False
+    print("Note: pandas not available, some features will use fallback implementations")
+
 from rich.console import Console
 from rich.panel import Panel
 from rich.prompt import Prompt, Confirm
@@ -59,6 +65,30 @@ class MediaCrawlerDemo:
             "7": ("zhihu", "Zhihu (知乎)", "Q&A knowledge sharing platform")
         }
         self.demo_results = {}
+
+    def _export_to_csv_fallback(self, data_list, csv_file):
+        """Fallback CSV export without pandas."""
+        if not data_list:
+            with open(csv_file, 'w', encoding='utf-8') as f:
+                f.write("No data available\n")
+            return
+            
+        # Get all unique keys from all dictionaries
+        all_keys = set()
+        for item in data_list:
+            if isinstance(item, dict):
+                all_keys.update(item.keys())
+        
+        all_keys = sorted(list(all_keys))
+        
+        # Write CSV manually
+        import csv
+        with open(csv_file, 'w', newline='', encoding='utf-8') as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=all_keys)
+            writer.writeheader()
+            for item in data_list:
+                if isinstance(item, dict):
+                    writer.writerow(item)
         
     def display_welcome(self):
         """Display welcome screen with project information."""
@@ -364,8 +394,11 @@ class MediaCrawlerDemo:
             
             # Export as CSV
             csv_file = demo_dir / f"{platform_code}_demo_data.csv"
-            df = pd.DataFrame(demo_data["posts"])
-            df.to_csv(csv_file, index=False, encoding="utf-8")
+            if PANDAS_AVAILABLE:
+                df = pd.DataFrame(demo_data["posts"])
+                df.to_csv(csv_file, index=False, encoding="utf-8")
+            else:
+                self._export_to_csv_fallback(demo_data["posts"], csv_file)
             
             await asyncio.sleep(1.5)  # Simulate processing time
             

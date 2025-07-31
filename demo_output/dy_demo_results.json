@@ -1,81 +1,185 @@
-[
-  {
-    "platform": "dy",
-    "platform_name": "Douyin (抖音)",
-    "feature": "keyword_search",
-    "keyword": "搞笑",
-    "posts_found": 25,
-    "comments_extracted": 150,
-    "media_files": 12,
-    "processing_time": 1.5016682147979736,
-    "timestamp": "2025-07-31T04:45:08.832780"
-  },
-  {
-    "platform": "dy",
-    "platform_name": "Douyin (抖音)",
-    "feature": "post_details",
-    "post_id": "7123456789012345678",
-    "author": "科技达人李明",
-    "likes": 1250,
-    "shares": 45,
-    "comments": 89,
-    "views": 5420,
-    "processing_time": 1.2013888359069824,
-    "timestamp": "2025-07-31T04:45:10.034295"
-  },
-  {
-    "platform": "dy",
-    "platform_name": "Douyin (抖音)",
-    "feature": "creator_analysis",
-    "creator_name": "科技达人李明",
-    "total_posts": 145,
-    "followers": 12500,
-    "total_likes": 89000,
-    "avg_engagement_rate": 7.8,
-    "content_categories": [
-      "美食",
-      "生活",
-      "推荐"
-    ],
-    "processing_time": 2.0022056102752686,
-    "timestamp": "2025-07-31T04:45:12.036672"
-  },
-  {
-    "platform": "dy",
-    "platform_name": "Douyin (抖音)",
-    "feature": "comments_analysis",
-    "primary_comments": 89,
-    "sub_comments": 234,
-    "sentiment": {
-      "positive": 72.5,
-      "neutral": 18.3,
-      "negative": 9.2
+{
+  "platform": "dy",
+  "search_term": "trending",
+  "posts": [
+    {
+      "id": "dy_001",
+      "title": "Sample trending post #1",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_2227",
+      "likes": 5155,
+      "comments": 368,
+      "shares": 13,
+      "timestamp": "2025-07-31T19:33:37.483340",
+      "url": "https://dy.example.com/post/1"
     },
+    {
+      "id": "dy_002",
+      "title": "Sample trending post #2",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_9498",
+      "likes": 775,
+      "comments": 219,
+      "shares": 87,
+      "timestamp": "2025-07-31T19:33:37.483354",
+      "url": "https://dy.example.com/post/2"
+    },
+    {
+      "id": "dy_003",
+      "title": "Sample trending post #3",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_5956",
+      "likes": 2528,
+      "comments": 208,
+      "shares": 88,
+      "timestamp": "2025-07-31T19:33:37.483360",
+      "url": "https://dy.example.com/post/3"
+    },
+    {
+      "id": "dy_004",
+      "title": "Sample trending post #4",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_7437",
+      "likes": 3013,
+      "comments": 38,
+      "shares": 61,
+      "timestamp": "2025-07-31T19:33:37.483365",
+      "url": "https://dy.example.com/post/4"
+    },
+    {
+      "id": "dy_005",
+      "title": "Sample trending post #5",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_3591",
+      "likes": 5285,
+      "comments": 228,
+      "shares": 3,
+      "timestamp": "2025-07-31T19:33:37.483370",
+      "url": "https://dy.example.com/post/5"
+    },
+    {
+      "id": "dy_006",
+      "title": "Sample trending post #6",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_4511",
+      "likes": 1546,
+      "comments": 434,
+      "shares": 63,
+      "timestamp": "2025-07-31T19:33:37.483376",
+      "url": "https://dy.example.com/post/6"
+    },
+    {
+      "id": "dy_007",
+      "title": "Sample trending post #7",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_3234",
+      "likes": 7539,
+      "comments": 473,
+      "shares": 90,
+      "timestamp": "2025-07-31T19:33:37.483381",
+      "url": "https://dy.example.com/post/7"
+    },
+    {
+      "id": "dy_008",
+      "title": "Sample trending post #8",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_7250",
+      "likes": 7258,
+      "comments": 272,
+      "shares": 18,
+      "timestamp": "2025-07-31T19:33:37.483386",
+      "url": "https://dy.example.com/post/8"
+    },
+    {
+      "id": "dy_009",
+      "title": "Sample trending post #9",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_8237",
+      "likes": 6741,
+      "comments": 339,
+      "shares": 38,
+      "timestamp": "2025-07-31T19:33:37.483391",
+      "url": "https://dy.example.com/post/9"
+    },
+    {
+      "id": "dy_010",
+      "title": "Sample trending post #10",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_5691",
+      "likes": 9721,
+      "comments": 250,
+      "shares": 44,
+      "timestamp": "2025-07-31T19:33:37.483397",
+      "url": "https://dy.example.com/post/10"
+    },
+    {
+      "id": "dy_011",
+      "title": "Sample trending post #11",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_2745",
+      "likes": 4390,
+      "comments": 154,
+      "shares": 99,
+      "timestamp": "2025-07-31T19:33:37.483402",
+      "url": "https://dy.example.com/post/11"
+    },
+    {
+      "id": "dy_012",
+      "title": "Sample trending post #12",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_3969",
+      "likes": 8723,
+      "comments": 82,
+      "shares": 2,
+      "timestamp": "2025-07-31T19:33:37.483407",
+      "url": "https://dy.example.com/post/12"
+    },
+    {
+      "id": "dy_013",
+      "title": "Sample trending post #13",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_7180",
+      "likes": 3445,
+      "comments": 148,
+      "shares": 14,
+      "timestamp": "2025-07-31T19:33:37.483412",
+      "url": "https://dy.example.com/post/13"
+    },
+    {
+      "id": "dy_014",
+      "title": "Sample trending post #14",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_7836",
+      "likes": 2706,
+      "comments": 284,
+      "shares": 46,
+      "timestamp": "2025-07-31T19:33:37.483417",
+      "url": "https://dy.example.com/post/14"
+    },
+    {
+      "id": "dy_015",
+      "title": "Sample trending post #15",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_5104",
+      "likes": 7574,
+      "comments": 432,
+      "shares": 53,
+      "timestamp": "2025-07-31T19:33:37.483422",
+      "url": "https://dy.example.com/post/15"
+    }
+  ],
+  "analytics": {
+    "total_posts": 15,
+    "avg_engagement": 5403.133333333333,
     "top_keywords": [
-      "好棒",
-      "喜欢",
-      "不错",
-      "推荐",
-      "赞"
+      "trending",
+      "content",
+      "social",
+      "media",
+      "demo"
     ],
-    "processing_time": 1.8019630908966064,
-    "timestamp": "2025-07-31T04:45:13.838792"
+    "processing_time": 1.9743957066449163,
+    "success_rate": 0.9014207472070567
   },
-  {
-    "platform": "dy",
-    "platform_name": "Douyin (抖音)",
-    "feature": "wordcloud",
-    "total_words": 2456,
-    "unique_words": 347,
-    "output_file": "demo_output/dy_wordcloud_demo.txt",
-    "top_words": [
-      "科技",
-      "美食",
-      "生活",
-      "分享",
-      "推荐"
-    ],
-    "processing_time": 1.5016725063323975,
-    "timestamp": "2025-07-31T04:45:15.340893"
-  }
-]
+  "timestamp": "2025-07-31T19:33:37.483458"
+}

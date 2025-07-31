@@ -1,13 +1,8 @@
-Platform,Feature,Status,Processing_Time,Timestamp
-XiaoHongShu (小红书),keyword_search,success,1.5016884803771973,2025-07-31T04:44:59.816930
-XiaoHongShu (小红书),post_details,success,1.2014036178588867,2025-07-31T04:45:01.018479
-XiaoHongShu (小红书),creator_analysis,success,2.002175807952881,2025-07-31T04:45:03.020823
-XiaoHongShu (小红书),comments_analysis,success,1.8019988536834717,2025-07-31T04:45:04.822984
-XiaoHongShu (小红书),wordcloud,success,1.5016870498657227,2025-07-31T04:45:06.325148
-XiaoHongShu (小红书),data_export,success,1.0011935234069824,2025-07-31T04:45:07.330935
-Douyin (抖音),keyword_search,success,1.5016682147979736,2025-07-31T04:45:08.832780
-Douyin (抖音),post_details,success,1.2013888359069824,2025-07-31T04:45:10.034295
-Douyin (抖音),creator_analysis,success,2.0022056102752686,2025-07-31T04:45:12.036672
-Douyin (抖音),comments_analysis,success,1.8019630908966064,2025-07-31T04:45:13.838792
-Douyin (抖音),wordcloud,success,1.5016725063323975,2025-07-31T04:45:15.340893
-Douyin (抖音),data_export,success,1.001204013824463,2025-07-31T04:45:16.343919
+Avg_Engagement,Platform,Platform_Code,Posts_Found,Processing_Time,Success_Rate,Timestamp
+5577.33,XiaoHongShu (小红书),xhs,6,2.03,0.975,2025-07-31T19:33:36.981477
+5403.13,Douyin (抖音),dy,15,1.97,0.901,2025-07-31T19:33:37.483458
+5245.64,Kuaishou (快手),ks,14,3.07,0.959,2025-07-31T19:33:37.985546
+4750.93,Bilibili (哔哩哔哩),bili,14,2.09,0.953,2025-07-31T19:33:38.487807
+5709.57,Weibo (微博),wb,7,4.06,0.893,2025-07-31T19:33:38.989809
+5962.07,Baidu Tieba (百度贴吧),tieba,15,2.2,0.9,2025-07-31T19:33:39.491938
+4025.6,Zhihu (知乎),zhihu,5,2.59,0.954,2025-07-31T19:33:39.994009

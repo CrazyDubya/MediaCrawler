@@ -1,0 +1,185 @@
+{
+  "platform": "tieba",
+  "search_term": "trending",
+  "posts": [
+    {
+      "id": "tieba_001",
+      "title": "Sample trending post #1",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_3738",
+      "likes": 1981,
+      "comments": 435,
+      "shares": 11,
+      "timestamp": "2025-07-31T19:33:39.491832",
+      "url": "https://tieba.example.com/post/1"
+    },
+    {
+      "id": "tieba_002",
+      "title": "Sample trending post #2",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_2019",
+      "likes": 8205,
+      "comments": 394,
+      "shares": 73,
+      "timestamp": "2025-07-31T19:33:39.491849",
+      "url": "https://tieba.example.com/post/2"
+    },
+    {
+      "id": "tieba_003",
+      "title": "Sample trending post #3",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_2069",
+      "likes": 324,
+      "comments": 252,
+      "shares": 37,
+      "timestamp": "2025-07-31T19:33:39.491855",
+      "url": "https://tieba.example.com/post/3"
+    },
+    {
+      "id": "tieba_004",
+      "title": "Sample trending post #4",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_5176",
+      "likes": 2769,
+      "comments": 191,
+      "shares": 51,
+      "timestamp": "2025-07-31T19:33:39.491860",
+      "url": "https://tieba.example.com/post/4"
+    },
+    {
+      "id": "tieba_005",
+      "title": "Sample trending post #5",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_5755",
+      "likes": 677,
+      "comments": 29,
+      "shares": 25,
+      "timestamp": "2025-07-31T19:33:39.491875",
+      "url": "https://tieba.example.com/post/5"
+    },
+    {
+      "id": "tieba_006",
+      "title": "Sample trending post #6",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_7509",
+      "likes": 826,
+      "comments": 384,
+      "shares": 38,
+      "timestamp": "2025-07-31T19:33:39.491880",
+      "url": "https://tieba.example.com/post/6"
+    },
+    {
+      "id": "tieba_007",
+      "title": "Sample trending post #7",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_1983",
+      "likes": 9682,
+      "comments": 178,
+      "shares": 37,
+      "timestamp": "2025-07-31T19:33:39.491885",
+      "url": "https://tieba.example.com/post/7"
+    },
+    {
+      "id": "tieba_008",
+      "title": "Sample trending post #8",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_4492",
+      "likes": 8734,
+      "comments": 302,
+      "shares": 96,
+      "timestamp": "2025-07-31T19:33:39.491890",
+      "url": "https://tieba.example.com/post/8"
+    },
+    {
+      "id": "tieba_009",
+      "title": "Sample trending post #9",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_3236",
+      "likes": 7414,
+      "comments": 124,
+      "shares": 18,
+      "timestamp": "2025-07-31T19:33:39.491895",
+      "url": "https://tieba.example.com/post/9"
+    },
+    {
+      "id": "tieba_010",
+      "title": "Sample trending post #10",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_1481",
+      "likes": 7855,
+      "comments": 35,
+      "shares": 25,
+      "timestamp": "2025-07-31T19:33:39.491900",
+      "url": "https://tieba.example.com/post/10"
+    },
+    {
+      "id": "tieba_011",
+      "title": "Sample trending post #11",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_4973",
+      "likes": 9128,
+      "comments": 473,
+      "shares": 100,
+      "timestamp": "2025-07-31T19:33:39.491905",
+      "url": "https://tieba.example.com/post/11"
+    },
+    {
+      "id": "tieba_012",
+      "title": "Sample trending post #12",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_6397",
+      "likes": 9284,
+      "comments": 370,
+      "shares": 55,
+      "timestamp": "2025-07-31T19:33:39.491910",
+      "url": "https://tieba.example.com/post/12"
+    },
+    {
+      "id": "tieba_013",
+      "title": "Sample trending post #13",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_3166",
+      "likes": 5213,
+      "comments": 495,
+      "shares": 24,
+      "timestamp": "2025-07-31T19:33:39.491915",
+      "url": "https://tieba.example.com/post/13"
+    },
+    {
+      "id": "tieba_014",
+      "title": "Sample trending post #14",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_9350",
+      "likes": 6671,
+      "comments": 278,
+      "shares": 19,
+      "timestamp": "2025-07-31T19:33:39.491923",
+      "url": "https://tieba.example.com/post/14"
+    },
+    {
+      "id": "tieba_015",
+      "title": "Sample trending post #15",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_4937",
+      "likes": 5928,
+      "comments": 185,
+      "shares": 6,
+      "timestamp": "2025-07-31T19:33:39.491928",
+      "url": "https://tieba.example.com/post/15"
+    }
+  ],
+  "analytics": {
+    "total_posts": 15,
+    "avg_engagement": 5962.066666666667,
+    "top_keywords": [
+      "trending",
+      "content",
+      "social",
+      "media",
+      "demo"
+    ],
+    "processing_time": 2.202177185255721,
+    "success_rate": 0.8999707060945291
+  },
+  "timestamp": "2025-07-31T19:33:39.491938"
+}

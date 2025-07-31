@@ -26,7 +26,12 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
 
-import pandas as pd
+try:
+    import pandas as pd
+    PANDAS_AVAILABLE = True
+except ImportError:
+    PANDAS_AVAILABLE = False
+    print("Note: pandas not available, some features will use fallback implementations")
 
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent))
@@ -48,6 +53,37 @@ class AutomatedDemo:
         self.results = {}
         self.platforms = {
             "xhs": "XiaoHongShu (小红书)",
+            "dy": "Douyin (抖音)",
+            "ks": "Kuaishou (快手)",
+            "bili": "Bilibili (哔哩哔哩)",
+            "wb": "Weibo (微博)",
+            "tieba": "Baidu Tieba (百度贴吧)",
+            "zhihu": "Zhihu (知乎)"
+        }
+
+    def _export_to_csv_fallback(self, data_list, csv_file):
+        """Fallback CSV export without pandas."""
+        if not data_list:
+            with open(csv_file, 'w', encoding='utf-8') as f:
+                f.write("No data available\n")
+            return
+            
+        # Get all unique keys from all dictionaries
+        all_keys = set()
+        for item in data_list:
+            if isinstance(item, dict):
+                all_keys.update(item.keys())
+        
+        all_keys = sorted(list(all_keys))
+        
+        # Write CSV manually
+        import csv
+        with open(csv_file, 'w', newline='', encoding='utf-8') as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=all_keys)
+            writer.writeheader()
+            for item in data_list:
+                if isinstance(item, dict):
+                    writer.writerow(item)
             "dy": "Douyin (抖音)", 
             "ks": "Kuaishou (快手)",
             "bili": "Bilibili (哔哩哔哩)",
@@ -311,8 +347,11 @@ class AutomatedDemo:
                 "Timestamp": result.get("timestamp", "")
             })
         
-        df = pd.DataFrame(summary_data)
-        df.to_csv(csv_file, index=False, encoding="utf-8")
+        if PANDAS_AVAILABLE:
+            df = pd.DataFrame(summary_data)
+            df.to_csv(csv_file, index=False, encoding="utf-8")
+        else:
+            self._export_to_csv_fallback(summary_data, csv_file)
         
         results = {
             "platform": platform,
@@ -444,8 +483,11 @@ class AutomatedDemo:
                 })
         
         csv_file = self.output_dir / "demo_results_summary.csv"
-        df = pd.DataFrame(csv_data)
-        df.to_csv(csv_file, index=False, encoding="utf-8")
+        if PANDAS_AVAILABLE:
+            df = pd.DataFrame(csv_data)
+            df.to_csv(csv_file, index=False, encoding="utf-8")
+        else:
+            self._export_to_csv_fallback(csv_data, csv_file)
         print(f"📁 CSV summary saved to: {csv_file}")
 
     async def run_full_demo(self, platforms: Optional[List[str]] = None):

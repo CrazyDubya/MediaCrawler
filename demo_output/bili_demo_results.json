@@ -1,0 +1,174 @@
+{
+  "platform": "bili",
+  "search_term": "trending",
+  "posts": [
+    {
+      "id": "bili_001",
+      "title": "Sample trending post #1",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_5668",
+      "likes": 8716,
+      "comments": 487,
+      "shares": 96,
+      "timestamp": "2025-07-31T19:33:38.487699",
+      "url": "https://bili.example.com/post/1"
+    },
+    {
+      "id": "bili_002",
+      "title": "Sample trending post #2",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_3061",
+      "likes": 5103,
+      "comments": 496,
+      "shares": 100,
+      "timestamp": "2025-07-31T19:33:38.487716",
+      "url": "https://bili.example.com/post/2"
+    },
+    {
+      "id": "bili_003",
+      "title": "Sample trending post #3",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_4532",
+      "likes": 6566,
+      "comments": 395,
+      "shares": 6,
+      "timestamp": "2025-07-31T19:33:38.487723",
+      "url": "https://bili.example.com/post/3"
+    },
+    {
+      "id": "bili_004",
+      "title": "Sample trending post #4",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_8321",
+      "likes": 120,
+      "comments": 295,
+      "shares": 73,
+      "timestamp": "2025-07-31T19:33:38.487729",
+      "url": "https://bili.example.com/post/4"
+    },
+    {
+      "id": "bili_005",
+      "title": "Sample trending post #5",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_9704",
+      "likes": 4708,
+      "comments": 34,
+      "shares": 51,
+      "timestamp": "2025-07-31T19:33:38.487736",
+      "url": "https://bili.example.com/post/5"
+    },
+    {
+      "id": "bili_006",
+      "title": "Sample trending post #6",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_7975",
+      "likes": 5373,
+      "comments": 2,
+      "shares": 85,
+      "timestamp": "2025-07-31T19:33:38.487742",
+      "url": "https://bili.example.com/post/6"
+    },
+    {
+      "id": "bili_007",
+      "title": "Sample trending post #7",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_7061",
+      "likes": 3986,
+      "comments": 146,
+      "shares": 24,
+      "timestamp": "2025-07-31T19:33:38.487748",
+      "url": "https://bili.example.com/post/7"
+    },
+    {
+      "id": "bili_008",
+      "title": "Sample trending post #8",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_1543",
+      "likes": 5394,
+      "comments": 235,
+      "shares": 68,
+      "timestamp": "2025-07-31T19:33:38.487759",
+      "url": "https://bili.example.com/post/8"
+    },
+    {
+      "id": "bili_009",
+      "title": "Sample trending post #9",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_4567",
+      "likes": 3249,
+      "comments": 7,
+      "shares": 14,
+      "timestamp": "2025-07-31T19:33:38.487765",
+      "url": "https://bili.example.com/post/9"
+    },
+    {
+      "id": "bili_010",
+      "title": "Sample trending post #10",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_1340",
+      "likes": 5164,
+      "comments": 413,
+      "shares": 60,
+      "timestamp": "2025-07-31T19:33:38.487772",
+      "url": "https://bili.example.com/post/10"
+    },
+    {
+      "id": "bili_011",
+      "title": "Sample trending post #11",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_6841",
+      "likes": 3356,
+      "comments": 238,
+      "shares": 34,
+      "timestamp": "2025-07-31T19:33:38.487778",
+      "url": "https://bili.example.com/post/11"
+    },
+    {
+      "id": "bili_012",
+      "title": "Sample trending post #12",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_8475",
+      "likes": 8083,
+      "comments": 308,
+      "shares": 86,
+      "timestamp": "2025-07-31T19:33:38.487784",
+      "url": "https://bili.example.com/post/12"
+    },
+    {
+      "id": "bili_013",
+      "title": "Sample trending post #13",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_8710",
+      "likes": 1437,
+      "comments": 262,
+      "shares": 58,
+      "timestamp": "2025-07-31T19:33:38.487790",
+      "url": "https://bili.example.com/post/13"
+    },
+    {
+      "id": "bili_014",
+      "title": "Sample trending post #14",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_8067",
+      "likes": 1072,
+      "comments": 19,
+      "shares": 94,
+      "timestamp": "2025-07-31T19:33:38.487796",
+      "url": "https://bili.example.com/post/14"
+    }
+  ],
+  "analytics": {
+    "total_posts": 14,
+    "avg_engagement": 4750.928571428572,
+    "top_keywords": [
+      "trending",
+      "content",
+      "social",
+      "media",
+      "demo"
+    ],
+    "processing_time": 2.0878645468962085,
+    "success_rate": 0.952726929270545
+  },
+  "timestamp": "2025-07-31T19:33:38.487807"
+}
