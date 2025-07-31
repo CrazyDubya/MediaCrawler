@@ -1,0 +1,174 @@
+{
+  "platform": "ks",
+  "search_term": "trending",
+  "posts": [
+    {
+      "id": "ks_001",
+      "title": "Sample trending post #1",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_1706",
+      "likes": 7297,
+      "comments": 492,
+      "shares": 80,
+      "timestamp": "2025-07-31T19:33:37.985418",
+      "url": "https://ks.example.com/post/1"
+    },
+    {
+      "id": "ks_002",
+      "title": "Sample trending post #2",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_1164",
+      "likes": 1577,
+      "comments": 500,
+      "shares": 21,
+      "timestamp": "2025-07-31T19:33:37.985463",
+      "url": "https://ks.example.com/post/2"
+    },
+    {
+      "id": "ks_003",
+      "title": "Sample trending post #3",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_1943",
+      "likes": 3506,
+      "comments": 329,
+      "shares": 31,
+      "timestamp": "2025-07-31T19:33:37.985470",
+      "url": "https://ks.example.com/post/3"
+    },
+    {
+      "id": "ks_004",
+      "title": "Sample trending post #4",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_2918",
+      "likes": 4254,
+      "comments": 144,
+      "shares": 22,
+      "timestamp": "2025-07-31T19:33:37.985492",
+      "url": "https://ks.example.com/post/4"
+    },
+    {
+      "id": "ks_005",
+      "title": "Sample trending post #5",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_2153",
+      "likes": 1390,
+      "comments": 121,
+      "shares": 80,
+      "timestamp": "2025-07-31T19:33:37.985498",
+      "url": "https://ks.example.com/post/5"
+    },
+    {
+      "id": "ks_006",
+      "title": "Sample trending post #6",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_3553",
+      "likes": 8389,
+      "comments": 317,
+      "shares": 54,
+      "timestamp": "2025-07-31T19:33:37.985503",
+      "url": "https://ks.example.com/post/6"
+    },
+    {
+      "id": "ks_007",
+      "title": "Sample trending post #7",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_2595",
+      "likes": 9268,
+      "comments": 91,
+      "shares": 69,
+      "timestamp": "2025-07-31T19:33:37.985507",
+      "url": "https://ks.example.com/post/7"
+    },
+    {
+      "id": "ks_008",
+      "title": "Sample trending post #8",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_4985",
+      "likes": 3729,
+      "comments": 298,
+      "shares": 37,
+      "timestamp": "2025-07-31T19:33:37.985511",
+      "url": "https://ks.example.com/post/8"
+    },
+    {
+      "id": "ks_009",
+      "title": "Sample trending post #9",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_3682",
+      "likes": 5667,
+      "comments": 218,
+      "shares": 30,
+      "timestamp": "2025-07-31T19:33:37.985516",
+      "url": "https://ks.example.com/post/9"
+    },
+    {
+      "id": "ks_010",
+      "title": "Sample trending post #10",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_2799",
+      "likes": 8527,
+      "comments": 79,
+      "shares": 22,
+      "timestamp": "2025-07-31T19:33:37.985520",
+      "url": "https://ks.example.com/post/10"
+    },
+    {
+      "id": "ks_011",
+      "title": "Sample trending post #11",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_8137",
+      "likes": 2369,
+      "comments": 382,
+      "shares": 35,
+      "timestamp": "2025-07-31T19:33:37.985524",
+      "url": "https://ks.example.com/post/11"
+    },
+    {
+      "id": "ks_012",
+      "title": "Sample trending post #12",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_1701",
+      "likes": 2735,
+      "comments": 446,
+      "shares": 13,
+      "timestamp": "2025-07-31T19:33:37.985529",
+      "url": "https://ks.example.com/post/12"
+    },
+    {
+      "id": "ks_013",
+      "title": "Sample trending post #13",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_8166",
+      "likes": 7263,
+      "comments": 269,
+      "shares": 68,
+      "timestamp": "2025-07-31T19:33:37.985533",
+      "url": "https://ks.example.com/post/13"
+    },
+    {
+      "id": "ks_014",
+      "title": "Sample trending post #14",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_2080",
+      "likes": 2842,
+      "comments": 281,
+      "shares": 97,
+      "timestamp": "2025-07-31T19:33:37.985537",
+      "url": "https://ks.example.com/post/14"
+    }
+  ],
+  "analytics": {
+    "total_posts": 14,
+    "avg_engagement": 5245.642857142857,
+    "top_keywords": [
+      "trending",
+      "content",
+      "social",
+      "media",
+      "demo"
+    ],
+    "processing_time": 3.073185929570622,
+    "success_rate": 0.958693945072329
+  },
+  "timestamp": "2025-07-31T19:33:37.985546"
+}

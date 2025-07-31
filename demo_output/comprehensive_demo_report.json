@@ -1,0 +1,70 @@
+{
+  "summary": [
+    {
+      "Platform": "XiaoHongShu (小红书)",
+      "Platform_Code": "xhs",
+      "Posts_Found": 6,
+      "Avg_Engagement": 5577.33,
+      "Processing_Time": 2.03,
+      "Success_Rate": 0.975,
+      "Timestamp": "2025-07-31T19:33:36.981477"
+    },
+    {
+      "Platform": "Douyin (抖音)",
+      "Platform_Code": "dy",
+      "Posts_Found": 15,
+      "Avg_Engagement": 5403.13,
+      "Processing_Time": 1.97,
+      "Success_Rate": 0.901,
+      "Timestamp": "2025-07-31T19:33:37.483458"
+    },
+    {
+      "Platform": "Kuaishou (快手)",
+      "Platform_Code": "ks",
+      "Posts_Found": 14,
+      "Avg_Engagement": 5245.64,
+      "Processing_Time": 3.07,
+      "Success_Rate": 0.959,
+      "Timestamp": "2025-07-31T19:33:37.985546"
+    },
+    {
+      "Platform": "Bilibili (哔哩哔哩)",
+      "Platform_Code": "bili",
+      "Posts_Found": 14,
+      "Avg_Engagement": 4750.93,
+      "Processing_Time": 2.09,
+      "Success_Rate": 0.953,
+      "Timestamp": "2025-07-31T19:33:38.487807"
+    },
+    {
+      "Platform": "Weibo (微博)",
+      "Platform_Code": "wb",
+      "Posts_Found": 7,
+      "Avg_Engagement": 5709.57,
+      "Processing_Time": 4.06,
+      "Success_Rate": 0.893,
+      "Timestamp": "2025-07-31T19:33:38.989809"
+    },
+    {
+      "Platform": "Baidu Tieba (百度贴吧)",
+      "Platform_Code": "tieba",
+      "Posts_Found": 15,
+      "Avg_Engagement": 5962.07,
+      "Processing_Time": 2.2,
+      "Success_Rate": 0.9,
+      "Timestamp": "2025-07-31T19:33:39.491938"
+    },
+    {
+      "Platform": "Zhihu (知乎)",
+      "Platform_Code": "zhihu",
+      "Posts_Found": 5,
+      "Avg_Engagement": 4025.6,
+      "Processing_Time": 2.59,
+      "Success_Rate": 0.954,
+      "Timestamp": "2025-07-31T19:33:39.994009"
+    }
+  ],
+  "total_platforms": 7,
+  "generated_at": "2025-07-31T19:33:40.495565",
+  "demo_version": "1.0.0"
+}

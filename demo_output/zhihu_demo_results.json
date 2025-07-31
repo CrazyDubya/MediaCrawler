@@ -1,0 +1,75 @@
+{
+  "platform": "zhihu",
+  "search_term": "trending",
+  "posts": [
+    {
+      "id": "zhihu_001",
+      "title": "Sample trending post #1",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_3371",
+      "likes": 3025,
+      "comments": 378,
+      "shares": 46,
+      "timestamp": "2025-07-31T19:33:39.993951",
+      "url": "https://zhihu.example.com/post/1"
+    },
+    {
+      "id": "zhihu_002",
+      "title": "Sample trending post #2",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_6052",
+      "likes": 117,
+      "comments": 453,
+      "shares": 43,
+      "timestamp": "2025-07-31T19:33:39.993966",
+      "url": "https://zhihu.example.com/post/2"
+    },
+    {
+      "id": "zhihu_003",
+      "title": "Sample trending post #3",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_4948",
+      "likes": 102,
+      "comments": 66,
+      "shares": 5,
+      "timestamp": "2025-07-31T19:33:39.993973",
+      "url": "https://zhihu.example.com/post/3"
+    },
+    {
+      "id": "zhihu_004",
+      "title": "Sample trending post #4",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_6112",
+      "likes": 9184,
+      "comments": 20,
+      "shares": 78,
+      "timestamp": "2025-07-31T19:33:39.993979",
+      "url": "https://zhihu.example.com/post/4"
+    },
+    {
+      "id": "zhihu_005",
+      "title": "Sample trending post #5",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_1592",
+      "likes": 6332,
+      "comments": 226,
+      "shares": 53,
+      "timestamp": "2025-07-31T19:33:39.993986",
+      "url": "https://zhihu.example.com/post/5"
+    }
+  ],
+  "analytics": {
+    "total_posts": 5,
+    "avg_engagement": 4025.6,
+    "top_keywords": [
+      "trending",
+      "content",
+      "social",
+      "media",
+      "demo"
+    ],
+    "processing_time": 2.5900544995660635,
+    "success_rate": 0.9543978843877347
+  },
+  "timestamp": "2025-07-31T19:33:39.994009"
+}

@@ -1,0 +1,185 @@
+{
+  "platform": "dy",
+  "search_term": "trending",
+  "posts": [
+    {
+      "id": "dy_001",
+      "title": "Sample trending post #1",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_2227",
+      "likes": 5155,
+      "comments": 368,
+      "shares": 13,
+      "timestamp": "2025-07-31T19:33:37.483340",
+      "url": "https://dy.example.com/post/1"
+    },
+    {
+      "id": "dy_002",
+      "title": "Sample trending post #2",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_9498",
+      "likes": 775,
+      "comments": 219,
+      "shares": 87,
+      "timestamp": "2025-07-31T19:33:37.483354",
+      "url": "https://dy.example.com/post/2"
+    },
+    {
+      "id": "dy_003",
+      "title": "Sample trending post #3",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_5956",
+      "likes": 2528,
+      "comments": 208,
+      "shares": 88,
+      "timestamp": "2025-07-31T19:33:37.483360",
+      "url": "https://dy.example.com/post/3"
+    },
+    {
+      "id": "dy_004",
+      "title": "Sample trending post #4",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_7437",
+      "likes": 3013,
+      "comments": 38,
+      "shares": 61,
+      "timestamp": "2025-07-31T19:33:37.483365",
+      "url": "https://dy.example.com/post/4"
+    },
+    {
+      "id": "dy_005",
+      "title": "Sample trending post #5",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_3591",
+      "likes": 5285,
+      "comments": 228,
+      "shares": 3,
+      "timestamp": "2025-07-31T19:33:37.483370",
+      "url": "https://dy.example.com/post/5"
+    },
+    {
+      "id": "dy_006",
+      "title": "Sample trending post #6",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_4511",
+      "likes": 1546,
+      "comments": 434,
+      "shares": 63,
+      "timestamp": "2025-07-31T19:33:37.483376",
+      "url": "https://dy.example.com/post/6"
+    },
+    {
+      "id": "dy_007",
+      "title": "Sample trending post #7",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_3234",
+      "likes": 7539,
+      "comments": 473,
+      "shares": 90,
+      "timestamp": "2025-07-31T19:33:37.483381",
+      "url": "https://dy.example.com/post/7"
+    },
+    {
+      "id": "dy_008",
+      "title": "Sample trending post #8",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_7250",
+      "likes": 7258,
+      "comments": 272,
+      "shares": 18,
+      "timestamp": "2025-07-31T19:33:37.483386",
+      "url": "https://dy.example.com/post/8"
+    },
+    {
+      "id": "dy_009",
+      "title": "Sample trending post #9",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_8237",
+      "likes": 6741,
+      "comments": 339,
+      "shares": 38,
+      "timestamp": "2025-07-31T19:33:37.483391",
+      "url": "https://dy.example.com/post/9"
+    },
+    {
+      "id": "dy_010",
+      "title": "Sample trending post #10",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_5691",
+      "likes": 9721,
+      "comments": 250,
+      "shares": 44,
+      "timestamp": "2025-07-31T19:33:37.483397",
+      "url": "https://dy.example.com/post/10"
+    },
+    {
+      "id": "dy_011",
+      "title": "Sample trending post #11",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_2745",
+      "likes": 4390,
+      "comments": 154,
+      "shares": 99,
+      "timestamp": "2025-07-31T19:33:37.483402",
+      "url": "https://dy.example.com/post/11"
+    },
+    {
+      "id": "dy_012",
+      "title": "Sample trending post #12",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_3969",
+      "likes": 8723,
+      "comments": 82,
+      "shares": 2,
+      "timestamp": "2025-07-31T19:33:37.483407",
+      "url": "https://dy.example.com/post/12"
+    },
+    {
+      "id": "dy_013",
+      "title": "Sample trending post #13",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_7180",
+      "likes": 3445,
+      "comments": 148,
+      "shares": 14,
+      "timestamp": "2025-07-31T19:33:37.483412",
+      "url": "https://dy.example.com/post/13"
+    },
+    {
+      "id": "dy_014",
+      "title": "Sample trending post #14",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_7836",
+      "likes": 2706,
+      "comments": 284,
+      "shares": 46,
+      "timestamp": "2025-07-31T19:33:37.483417",
+      "url": "https://dy.example.com/post/14"
+    },
+    {
+      "id": "dy_015",
+      "title": "Sample trending post #15",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_5104",
+      "likes": 7574,
+      "comments": 432,
+      "shares": 53,
+      "timestamp": "2025-07-31T19:33:37.483422",
+      "url": "https://dy.example.com/post/15"
+    }
+  ],
+  "analytics": {
+    "total_posts": 15,
+    "avg_engagement": 5403.133333333333,
+    "top_keywords": [
+      "trending",
+      "content",
+      "social",
+      "media",
+      "demo"
+    ],
+    "processing_time": 1.9743957066449163,
+    "success_rate": 0.9014207472070567
+  },
+  "timestamp": "2025-07-31T19:33:37.483458"
+}

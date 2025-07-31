@@ -1,0 +1,86 @@
+{
+  "platform": "xhs",
+  "search_term": "trending",
+  "posts": [
+    {
+      "id": "xhs_001",
+      "title": "Sample trending post #1",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_1700",
+      "likes": 3844,
+      "comments": 23,
+      "shares": 45,
+      "timestamp": "2025-07-31T19:33:36.981410",
+      "url": "https://xhs.example.com/post/1"
+    },
+    {
+      "id": "xhs_002",
+      "title": "Sample trending post #2",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_1085",
+      "likes": 9107,
+      "comments": 293,
+      "shares": 15,
+      "timestamp": "2025-07-31T19:33:36.981423",
+      "url": "https://xhs.example.com/post/2"
+    },
+    {
+      "id": "xhs_003",
+      "title": "Sample trending post #3",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_3153",
+      "likes": 6856,
+      "comments": 227,
+      "shares": 43,
+      "timestamp": "2025-07-31T19:33:36.981451",
+      "url": "https://xhs.example.com/post/3"
+    },
+    {
+      "id": "xhs_004",
+      "title": "Sample trending post #4",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_1920",
+      "likes": 110,
+      "comments": 79,
+      "shares": 83,
+      "timestamp": "2025-07-31T19:33:36.981456",
+      "url": "https://xhs.example.com/post/4"
+    },
+    {
+      "id": "xhs_005",
+      "title": "Sample trending post #5",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_7207",
+      "likes": 6499,
+      "comments": 300,
+      "shares": 99,
+      "timestamp": "2025-07-31T19:33:36.981460",
+      "url": "https://xhs.example.com/post/5"
+    },
+    {
+      "id": "xhs_006",
+      "title": "Sample trending post #6",
+      "content": "This is a sample post about trending. Content varies by platform.",
+      "author": "user_9890",
+      "likes": 5379,
+      "comments": 405,
+      "shares": 57,
+      "timestamp": "2025-07-31T19:33:36.981464",
+      "url": "https://xhs.example.com/post/6"
+    }
+  ],
+  "analytics": {
+    "total_posts": 6,
+    "avg_engagement": 5577.333333333333,
+    "top_keywords": [
+      "trending",
+      "content",
+      "social",
+      "media",
+      "demo"
+    ],
+    "processing_time": 2.0329621912413414,
+    "success_rate": 0.9751823151730622
+  },
+  "timestamp": "2025-07-31T19:33:36.981477"
+}
