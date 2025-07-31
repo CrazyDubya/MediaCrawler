@@ -4,7 +4,6 @@
 
 ## 🌟 What's New in This Enhanced Edition
 
-## 🌟 What's New in This Enhanced Edition
 
 ### ✨ Major Improvements Added
 
