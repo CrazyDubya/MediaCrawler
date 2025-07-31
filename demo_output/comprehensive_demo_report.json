@@ -1,0 +1,221 @@
+{
+  "demo_summary": {
+    "timestamp": "2025-07-31T04:45:16.344133",
+    "total_platforms": 2,
+    "total_features": 12,
+    "successful_features": 12,
+    "overall_success_rate": 100.0,
+    "total_processing_time": 18.020249605178833,
+    "average_time_per_feature": 1.501687467098236
+  },
+  "platform_statistics": {
+    "xhs": {
+      "total_features": 6,
+      "successful_features": 6,
+      "success_rate": 100.0,
+      "total_time": 9.010147333145142
+    },
+    "dy": {
+      "total_features": 6,
+      "successful_features": 6,
+      "success_rate": 100.0,
+      "total_time": 9.010102272033691
+    }
+  },
+  "detailed_results": {
+    "xhs": [
+      {
+        "platform": "xhs",
+        "platform_name": "XiaoHongShu (小红书)",
+        "feature": "keyword_search",
+        "keyword": "美食推荐",
+        "posts_found": 25,
+        "comments_extracted": 150,
+        "media_files": 12,
+        "processing_time": 1.5016884803771973,
+        "timestamp": "2025-07-31T04:44:59.816930"
+      },
+      {
+        "platform": "xhs",
+        "platform_name": "XiaoHongShu (小红书)",
+        "feature": "post_details",
+        "post_id": "65f0f1234567890abcdef123",
+        "author": "美食博主小王",
+        "likes": 1250,
+        "shares": 45,
+        "comments": 89,
+        "views": 5420,
+        "processing_time": 1.2014036178588867,
+        "timestamp": "2025-07-31T04:45:01.018479"
+      },
+      {
+        "platform": "xhs",
+        "platform_name": "XiaoHongShu (小红书)",
+        "feature": "creator_analysis",
+        "creator_name": "美食博主小王",
+        "total_posts": 145,
+        "followers": 12500,
+        "total_likes": 89000,
+        "avg_engagement_rate": 7.8,
+        "content_categories": [
+          "美食",
+          "生活",
+          "推荐"
+        ],
+        "processing_time": 2.002175807952881,
+        "timestamp": "2025-07-31T04:45:03.020823"
+      },
+      {
+        "platform": "xhs",
+        "platform_name": "XiaoHongShu (小红书)",
+        "feature": "comments_analysis",
+        "primary_comments": 89,
+        "sub_comments": 234,
+        "sentiment": {
+          "positive": 72.5,
+          "neutral": 18.3,
+          "negative": 9.2
+        },
+        "top_keywords": [
+          "好棒",
+          "喜欢",
+          "不错",
+          "推荐",
+          "赞"
+        ],
+        "processing_time": 1.8019988536834717,
+        "timestamp": "2025-07-31T04:45:04.822984"
+      },
+      {
+        "platform": "xhs",
+        "platform_name": "XiaoHongShu (小红书)",
+        "feature": "wordcloud",
+        "total_words": 2456,
+        "unique_words": 347,
+        "output_file": "demo_output/xhs_wordcloud_demo.txt",
+        "top_words": [
+          "科技",
+          "美食",
+          "生活",
+          "分享",
+          "推荐"
+        ],
+        "processing_time": 1.5016870498657227,
+        "timestamp": "2025-07-31T04:45:06.325148"
+      },
+      {
+        "platform": "xhs",
+        "platform_name": "XiaoHongShu (小红书)",
+        "feature": "data_export",
+        "formats": [
+          "JSON",
+          "CSV"
+        ],
+        "files": [
+          "demo_output/xhs_demo_results.json",
+          "demo_output/xhs_demo_summary.csv"
+        ],
+        "records_exported": 5,
+        "processing_time": 1.0011935234069824,
+        "timestamp": "2025-07-31T04:45:07.330935"
+      }
+    ],
+    "dy": [
+      {
+        "platform": "dy",
+        "platform_name": "Douyin (抖音)",
+        "feature": "keyword_search",
+        "keyword": "搞笑",
+        "posts_found": 25,
+        "comments_extracted": 150,
+        "media_files": 12,
+        "processing_time": 1.5016682147979736,
+        "timestamp": "2025-07-31T04:45:08.832780"
+      },
+      {
+        "platform": "dy",
+        "platform_name": "Douyin (抖音)",
+        "feature": "post_details",
+        "post_id": "7123456789012345678",
+        "author": "科技达人李明",
+        "likes": 1250,
+        "shares": 45,
+        "comments": 89,
+        "views": 5420,
+        "processing_time": 1.2013888359069824,
+        "timestamp": "2025-07-31T04:45:10.034295"
+      },
+      {
+        "platform": "dy",
+        "platform_name": "Douyin (抖音)",
+        "feature": "creator_analysis",
+        "creator_name": "科技达人李明",
+        "total_posts": 145,
+        "followers": 12500,
+        "total_likes": 89000,
+        "avg_engagement_rate": 7.8,
+        "content_categories": [
+          "美食",
+          "生活",
+          "推荐"
+        ],
+        "processing_time": 2.0022056102752686,
+        "timestamp": "2025-07-31T04:45:12.036672"
+      },
+      {
+        "platform": "dy",
+        "platform_name": "Douyin (抖音)",
+        "feature": "comments_analysis",
+        "primary_comments": 89,
+        "sub_comments": 234,
+        "sentiment": {
+          "positive": 72.5,
+          "neutral": 18.3,
+          "negative": 9.2
+        },
+        "top_keywords": [
+          "好棒",
+          "喜欢",
+          "不错",
+          "推荐",
+          "赞"
+        ],
+        "processing_time": 1.8019630908966064,
+        "timestamp": "2025-07-31T04:45:13.838792"
+      },
+      {
+        "platform": "dy",
+        "platform_name": "Douyin (抖音)",
+        "feature": "wordcloud",
+        "total_words": 2456,
+        "unique_words": 347,
+        "output_file": "demo_output/dy_wordcloud_demo.txt",
+        "top_words": [
+          "科技",
+          "美食",
+          "生活",
+          "分享",
+          "推荐"
+        ],
+        "processing_time": 1.5016725063323975,
+        "timestamp": "2025-07-31T04:45:15.340893"
+      },
+      {
+        "platform": "dy",
+        "platform_name": "Douyin (抖音)",
+        "feature": "data_export",
+        "formats": [
+          "JSON",
+          "CSV"
+        ],
+        "files": [
+          "demo_output/dy_demo_results.json",
+          "demo_output/dy_demo_summary.csv"
+        ],
+        "records_exported": 5,
+        "processing_time": 1.001204013824463,
+        "timestamp": "2025-07-31T04:45:16.343919"
+      }
+    ]
+  }
+}

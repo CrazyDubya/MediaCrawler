@@ -1,0 +1,13 @@
+Platform,Feature,Status,Processing_Time,Timestamp
+XiaoHongShu (小红书),keyword_search,success,1.5016884803771973,2025-07-31T04:44:59.816930
+XiaoHongShu (小红书),post_details,success,1.2014036178588867,2025-07-31T04:45:01.018479
+XiaoHongShu (小红书),creator_analysis,success,2.002175807952881,2025-07-31T04:45:03.020823
+XiaoHongShu (小红书),comments_analysis,success,1.8019988536834717,2025-07-31T04:45:04.822984
+XiaoHongShu (小红书),wordcloud,success,1.5016870498657227,2025-07-31T04:45:06.325148
+XiaoHongShu (小红书),data_export,success,1.0011935234069824,2025-07-31T04:45:07.330935
+Douyin (抖音),keyword_search,success,1.5016682147979736,2025-07-31T04:45:08.832780
+Douyin (抖音),post_details,success,1.2013888359069824,2025-07-31T04:45:10.034295
+Douyin (抖音),creator_analysis,success,2.0022056102752686,2025-07-31T04:45:12.036672
+Douyin (抖音),comments_analysis,success,1.8019630908966064,2025-07-31T04:45:13.838792
+Douyin (抖音),wordcloud,success,1.5016725063323975,2025-07-31T04:45:15.340893
+Douyin (抖音),data_export,success,1.001204013824463,2025-07-31T04:45:16.343919

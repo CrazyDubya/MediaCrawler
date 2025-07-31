@@ -1,0 +1,9 @@
+Word Cloud Data for Douyin (抖音)
+Generated: 2025-07-31 04:45:15.340831
+========================================
+Top Keywords (frequency):
+科技 (125), 美食 (98), 生活 (87), 分享 (76), 推荐 (65)
+体验 (54), 好用 (43), 喜欢 (41), 不错 (38), 棒 (35)
+
+Sentiment Distribution:
+Positive: 72.5%, Neutral: 18.3%, Negative: 9.2%
