@@ -82,7 +82,6 @@ class MediaCrawlerDemo:
         all_keys = sorted(list(all_keys))
         
         # Write CSV manually
-        import csv
         with open(csv_file, 'w', newline='', encoding='utf-8') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=all_keys)
             writer.writeheader()
