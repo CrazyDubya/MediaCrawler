@@ -205,13 +205,13 @@ ENABLE_JSON_EXPORT = True
 ENABLE_CSV_EXPORT = True
 ENABLE_EXCEL_EXPORT = False  # Requires additional dependencies
 
-print("Demo mode configuration created successfully!")
 '''
     
     try:
         with open("demo_config.py", "w") as f:
             f.write(config_content)
         print("✅ Created fallback configuration: demo_config.py")
+        print("Demo mode configuration created successfully!")
         return True
     except Exception as e:
         print(f"❌ Could not create fallback config: {e}")
